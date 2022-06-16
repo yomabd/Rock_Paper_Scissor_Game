@@ -3,7 +3,7 @@
 This is a ROCK, PAPER, SCISSORS GAME
 """
 import random
-# A function that takes players move and decide who wins
+# A function that takes players move and decides if there is a win or tie
 def is_winner(computer_move, user_move):
     if computer_move == player_move:
         print('There is a tie!')
